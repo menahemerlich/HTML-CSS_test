@@ -1,0 +1,130 @@
+html {
+    padding: 7px;
+    text-align: center;
+    align-items: center;
+    font-family: "ui-sans-serif", "-apple-system", "system-ui", "Segoe UI", "Helvetica", "Apple Color Emoji", "Arial", "sans-serif", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+body{
+    background: linear-gradient(#bc78db, #f0f2f3);
+
+}
+header>* {
+    display: inline-block;
+    vertical-align: top;
+
+
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    background-color: rebeccapurple;
+    display: inline;
+    width: 2em;
+}
+
+.logo h2 {
+    display: inline;
+    vertical-align: top;
+    font-weight: normal;
+
+}
+
+.login {
+    float: right;
+}
+
+.login>* {
+    border-radius: 25px;
+    height: 2em;
+    min-width: 2em;
+}
+
+.login #log-in {
+    background-color: black;
+    color: white;
+}
+
+.login #free {
+    border: 1px solid rgb(202, 202, 194);
+}
+
+.login #helf {
+    font-weight: bold;
+    background-color: white;
+}
+
+main {
+    display: inline-block;
+    margin-top: 4em;
+}
+
+main h1 {
+    text-align: left;
+    margin-bottom: 2.5em;
+}
+
+main h3 {
+    text-align: left;
+}
+
+
+.images>* {
+    display: inline-block;
+    margin: 5px;
+}
+
+.images img {
+    width: 10em;
+    height: 15em;
+    border-radius: 15px;
+
+}
+
+.table{
+    text-align: left;
+    margin-top: 5em;
+
+}
+.cards {
+    display: inline-block;
+    text-align: left;
+
+    
+}
+
+.cards >* {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.cards img {
+    display: block;
+    width: 4em;
+    height: 4em;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+
+.cards p{
+    margin-bottom: 3em;
+    margin-top: 2em;
+    margin-right: 3em;
+}
+
+#cards1{
+    background-color: aqua;
+    width: 10em;
+}
+#cards2{
+    background-color: rgb(46, 119, 119);
+}
+
+#cards1 >* {
+    display: inline-block;
+    vertical-align: top;
+}

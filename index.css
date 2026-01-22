@@ -1,0 +1,106 @@
+html {
+    padding: 7px;
+    text-align: center;
+    font-family: "ui-sans-serif", "-apple-system", "system-ui", "Segoe UI", "Helvetica", "Apple Color Emoji", "Arial", "sans-serif", "Segoe UI Emoji", "Segoe UI Symbol"
+    ;
+}
+
+header>* {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    background-color: rebeccapurple;
+    display: inline;
+    width: 2em;
+}
+
+.logo h2 {
+    display: inline;
+    vertical-align: top;
+    font-weight: normal;
+}
+
+.navbar>* {
+    margin: 3px;
+    color: rgb(87, 84, 84);
+    text-decoration: none;
+}
+
+.login {
+    float: right;
+}
+
+.login>* {
+    border-radius: 25px;
+    height: 2em;
+    min-width: 2em;
+}
+
+.login #log-in {
+    background-color: black;
+    color: white;
+}
+
+.login #free {
+    border: 1px solid rgb(202, 202, 194);
+}
+
+.login #helf {
+    font-weight: bold;
+    background-color: white;
+}
+
+main {
+    margin-top: 15em;
+}
+
+main h1 {
+    font-weight: normal;
+}
+
+.search {
+    display: inline-block;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 45em;
+    height: 5.5em;
+    padding: 5px;
+    margin-top: 1.5em;
+}
+
+.search form input {
+    padding: 5px;
+    width: 95%;
+    height: 3em;
+    float: left;
+    border: none;
+}
+
+.options #right-button>* {
+    border: 1px solid rgb(202, 202, 194);
+    border-radius: 25px;
+    float: left;
+    height: 2.5em;
+    background-color: white;
+    margin-left: 3px;
+
+
+}
+
+.options #left-button>* {
+    border: 1px solid rgb(187, 187, 178);
+    border-radius: 25px;
+    float: right;
+    height: 2.5em;
+    background-color: #eaeaea;
+    margin-right: 3px;
+
+}
